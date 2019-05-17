@@ -17,10 +17,8 @@ library(xgboost)
 library(DMwR)
 
 crs <- new.env()
-fname <- "C:/Users/ohrtwy/Desktop/WY/z. School/Modules/EB5205 Clinical/Journal/Appt No Show/Dataset/Kaggle_WY.csv"
-fname_kaggle <- "C:/Users/ohrtwy/Desktop/WY/z. School/Modules/EB5205 Clinical/Journal/Appt No Show/Dataset/KaggleV2-May-2016.csv"
-#fname <- "E:/EB5205 Clinical/Journal/Appt No Show/Dataset/Kaggle_WY.csv"
-#fname_kaggle <- "E:/EB5205 Clinical/Journal/Appt No Show/Dataset/KaggleV2-May-2016.csv"
+fname <- ".../Journal/Appt No Show/Dataset/Kaggle_WY.csv"
+fname_kaggle <- ".../Appt No Show/Dataset/KaggleV2-May-2016.csv"
 
 crs$dataset <- read.csv(
   fname,
